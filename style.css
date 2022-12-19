@@ -1,0 +1,124 @@
+/* index.html */
+*,
+html{
+    margin: 0;
+    padding-top: 0;
+}
+
+.container{}
+
+.navbar{
+    background-color: rgb(64, 64, 64);
+    width: 100%;
+    height:10vh;
+}
+
+.ul-navbar{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    font-size: 2.4vh;
+    list-style-type: none;
+    padding: 1.5vh;
+    margin: 5px;
+    color: aliceblue;
+}
+
+.li-navbar:hover {
+    background-color: crimson;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.content{
+    background-color: #fffaf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img{
+    width: 30vh;
+    height: 30vh;
+}
+
+.github{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.github:hover{
+    background-color: tomato;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: 100px; */
+    /* z-index: 100px; */
+}
+
+.footer:hover{
+    background-color: #252525;
+    color: tomato;
+    transition: .3s ease-in-out;
+}
+
+.h1-footer{
+    font-size: 20px;
+}
+
+.a-navbar{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* index html end */
+
+/* about me */
+
+.about-content{
+    background-color: #fffaf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.about-content{
+    background-color: tomato;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-navbar-about{
+    background-color: aqua;
+    text-decoration: none;
+}
